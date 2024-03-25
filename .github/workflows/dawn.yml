@@ -4,8 +4,8 @@ on: workflow_dispatch
 
 # Global Settings
 env:
-  DAWN_BRANCH: chromium/4848
-  DAWN_URL: https://dawn.googlesource.com/4480
+  DAWN_BRANCH: chromium/4480
+  DAWN_URL: https://dawn.googlesource.com/dawn
   MSVC_PATH: 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC'
 
 
