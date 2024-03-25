@@ -6,7 +6,7 @@ on: workflow_dispatch
 env:
   DAWN_BRANCH: chromium/4480
   DAWN_URL: https://dawn.googlesource.com/dawn
-  MSVC_PATH: 'C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC'
+  MSVC_PATH: 'C:\Program Files\Microsoft Visual Studio\2022\Enterprise\VC'
 
 
 jobs:
