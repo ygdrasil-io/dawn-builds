@@ -1,8 +1,6 @@
 name: Build Google Dawn
-on:
-  push:
-    tags:        
-      - '**'   
+
+on: workflow_dispatch
 
 # Global Settings
 env:
