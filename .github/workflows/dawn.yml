@@ -118,7 +118,7 @@ jobs:
         if: ${{ matrix.target_os == 'linux' }}
         run: |
           sudo dpkg --add-architecture i386
-          sudo apt-get install pkg-config clang gcc gcc-multilib g++ g++-multilib
+          sudo apt-get install pkg-config clang gcc gcc-multilib g++ g++-multilib ninja-build
 
       - name: Install depot tools
         shell: bash
